@@ -3,11 +3,11 @@ const names = ['Edoardo', 'Simone', 'Francesco'];
 // Stampa in console tutti i nomi
 // Risultato: 'Edoardo', 'Simone', 'Francesco'
 
-let risultato = " "; 
+let risultato = ""; 
 
-names.forEach ( (element)  => {
-     risultato += element; 
-     if (index < element)
+names.forEach ( (element, index) => {
+     risultato += `${element}, ${element}`;
+
 })
 
 console.log(risultato)
