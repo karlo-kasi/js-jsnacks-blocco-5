@@ -4,4 +4,4 @@ const names = ['Edoardo', 'Simone', 'Francesco'];
 // Risultato: 'Edoardo', 'Simone', 'Francesco'
 
 
-console.log(names.join(", "))
+const lista = names.forEach( (element) => (console.log(element)))
